@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Coming Soon", system-ui, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  padding: 32px 48px;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.site-title a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-nav {
+  display: flex;
+  gap: 28px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
+
+/* ---------- Page Layout ---------- */
+
+main {
+  padding: 32px 48px 64px;
+  max-width: 1600px;
+}
+
+/* ---------- Section Labels ---------- */
+
+.collection-label {
+  margin: 64px 0 24px;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+/* ---------- Gallery ---------- */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 24px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+  .site-header,
+  main {
+    padding: 24px;
+  }
+
+  .nav-inner {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
