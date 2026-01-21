@@ -17,7 +17,7 @@ Hi! I like photography.
 ---
 [![](https://visitcount.itsvg.in/api?id=sakuraluvv&icon=9&color=6)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
+  ## 💰 Help me by donating a roll of film!
   [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/lucentfilm) 
 
   
